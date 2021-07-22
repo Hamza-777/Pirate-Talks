@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yomogi', cursive;
+}
+
+body {
+    background: #fff;
+}
+
+.header {
+    height: 70px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    height: 100%;
+    max-width: 1200px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    height: 70px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.body {
+    text-align: center;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.to {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    outline: none;
+    letter-spacing: 1.5px;
+}
+
+.translate {
+    width: 140px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid #111;
+    color: #111;
+    border-radius: 0 100px;
+    background: #fff;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+.scroll {
+    width: 750px;
+    height: 200px;
+    overflow: scroll;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #333;
+}
+
+.text {
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+
+.footer {
+    height: 50px;
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background: #111;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
